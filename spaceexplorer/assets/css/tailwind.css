@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply bg-home-space w-screen h-screen bg-repeat bg-cover bg-center bg-opacity-5 overflow-x-hidden overflow-y-scroll bg-fixed;
+}
+
+@layer components {
+    .headTxt {
+        @apply text-white text-sm uppercase items-center justify-center flex flex-col h-fit;
+    }
+
+    .card {
+        @apply p-3 rounded-md bg-white shadow-md h-full;
+    }
+
+    h1 {
+        @apply text-white;
+    }
+}
